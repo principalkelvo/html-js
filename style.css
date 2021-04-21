@@ -1,0 +1,47 @@
+*{
+    background-color: rgba(0, 0, 0, 0.912);
+    margin: 0;
+    padding: 2px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 4px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    text-align: left;
+    
+}
+
+form, div{
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
+
+input{
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(90, 33, 33);
+}
+label 
+ {
+     padding-right: 10px;
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+ }
+
+ input:focus{
+    border-bottom: 2px solid rgb(223, 212, 212);
+ }
+ input:hover{
+    border-bottom: 2px solid rgba(199, 164, 164, 0.487);
+ }
+
+ 

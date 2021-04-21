@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Form</title>
+    <script defer src="magic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="first-value">first-value</label>
+            <input id="first-value" name="first-value" type="number" onchange="firstFunction()">
+        </div>
+        <div>
+            <label for="second-value">second-value</label>
+            <input id="second-value" name="second-value" type="number" onchange="secondFunction()">
+        </div>
+        <div>
+            <label for="third-value">third-value</label>
+            <input id="third-value" name="third-value" type="number" onchange="thirdFunction()">
+        </div>
+    </form>
+</body>
+</html>
